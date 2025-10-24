@@ -1,0 +1,23 @@
+.hero-section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:80vh;
+}
+
+.hero1{
+    h3{
+        color: rgb(173, 156, 129);
+        font: 1em sans-serif;
+       
+    }
+}
+
+.hero2{
+    font-size:2rem;
+    color:green;
+    img{
+        width:300px;
+        height:auto;
+    }
+}

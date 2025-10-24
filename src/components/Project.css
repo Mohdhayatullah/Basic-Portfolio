@@ -1,0 +1,103 @@
+
+.ptitle{
+    text-align: center;
+    background-color: rgb(246, 242, 242);
+    padding: 15px 100px;
+    border-radius: 15px;
+    h2{
+        color: #427ac5;
+        font-weight: bold;
+    }
+    p{
+        color: #000;
+        font-style: italic;
+    }
+}
+
+/* ==== Container ==== */
+.project {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 40px 60px;
+  background: #f5f7fa;
+}
+
+/* ==== Card ==== */
+.project-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ==== Image ==== */
+.project-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* ==== Text ==== */
+.project-card h3 {
+  margin-top: 12px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #555;
+  padding: 0 1rem;
+  margin: 10px 0 15px;
+}
+
+/* ==== Tags ==== */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 1rem 15px;
+}
+
+.tag {
+  background: #e0f7fa;
+  color: #00796b;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* ==== Links ==== */
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px 0 20px;
+}
+
+.links a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #007bff;
+  border: 1px solid #007bff;
+  padding: 6px 14px;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.links a:hover {
+  background: #007bff;
+  color: #fff;
+}
+

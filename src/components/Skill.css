@@ -1,0 +1,33 @@
+.skill{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 40px 60px;
+  background: #f5f7fa;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  h3{
+    text-align: center;
+  }
+}
+
+.sheader{
+    text-align: center;
+    background-color: #eaf0f0;
+    padding: 15px 150px;
+    margin: 15px 50px ;
+    border-radius: 15px;
+
+    h2{
+        color: #4781cd;
+    }
+    h4{
+        color: #608e98;
+    }
+}
